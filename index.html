@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en"><!-- COMIENZA CODIGO HTML -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body><!-- CUERPO DEL CODIGO HTML -->
+   <style> /*ESTILOS DE NUESTRO HTML*/
+       td { text-align: center;/* ALINEACIÓN DEL TEXTO DE LA TABLA */
+    }
+       #izquierda {/* POSICIONAMIENTO DE NUESTRA TABLA */
+           float: right;
+           
+       }
+    
+       table , th, td {/* ASIGNACIÓN DE BORDES A NUESTRAS TABLAS */
+  border: 1px solid black;
+}
+  
+   </style>
+   <!-- ALINEACIÓN, INSERCIÓN, TAMAÑO Y TITULO DE LA IMAGEN GUARDADA EN NUESTRO DIRECTORIO DEL INDEX  --> 
+   <div align="center">
+    <img src="RMad.png"
+    width="350" height="450" 
+    title="Wallpaper del Escudo del Real Madrid">
+    </div>
+
+    <!-- CREACIÓN DE UN CONTENEDOR PARA EL POSICIONAMIENTO DE NUESTRA TABLA -->
+    <div id="contenedor">
+        <div id="izquierda">
+    <table> <!-- LINEA DE CODIGO 32 A LA 69 CREACIÓN DE NUESTRAS TABLAS -->
+        <style>
+           tr:nth-child(even) {background-color: #f2f2f2;} /* ESTILO DE NUESTRA TABLA */
+        </style>
+          <tr> <!-- ELEMENTO tr REPRESENTA A UNA FILA DE UNA TABLA -->
+            <th>Goleadores Historicos</th>
+            <th>Goles</th> <!-- ELEMENTOS th DEFINEN UNA CELDA COMO ENCABEZADO -->
+            <th>Partidos Jugados</th>
+          </tr>
+          <tr>
+            <td>Cristiano Ronaldo</td> <!-- ELEMENTOS td REPRESENTAN A UNA CELDA DE DATOS DE UNA TABLA -->
+            <td>451</td>
+            <td>438</td>
+          </tr>
+          <tr>
+            <td>Raúl González</td>
+            <td>323</td>
+            <td>741</td>
+          </tr>
+          <tr>
+            <td>Alfredo Di Stéfano</td>
+            <td>308</td>
+            <td>396</td>
+          </tr>
+        </table>
+    </div>
+        <table>
+            <tr>
+                <th>Nombre del Equipo</th>
+                <th>Fecha de Fundación</th>
+                <th>Años</th>
+              </tr>
+            <tr>
+            <td>Real Madrid CF</td>
+            <td>06 de Marzo de 1902</td>
+            <td>118</td>
+          </tr>
+            </table>
+
+    </div>
+      
+</body>
+</html><!-- TERMINA CODIGO HTML -->
